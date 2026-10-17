@@ -3,37 +3,32 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-<meta name="theme-color" content="#102a2e" />
+<meta name="theme-color" content="#ffffff" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 <meta name="description" content="BALLAST — concurrent strength for endurance: heavy compounds, targeted hypertrophy, power & plyometrics, compromised running." />
 <link rel="manifest" href="manifest.webmanifest" />
 <link rel="apple-touch-icon" href="data:image/png;base64,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" />
 <meta name="apple-mobile-web-app-title" content="BALLAST" />
-<meta name="app-version" content="19" />
+<meta name="app-version" content="20" />
 <title>BALLAST</title>
 <style>
 :root{
-  --bg:#0d2226;--panel:#102a2e;--panel2:#153439;--line:#1f454b;--ink:#e8f1f0;--mute:#8fb1ad;--dim:#5d8580;
-  --heavy:#e3503e;--hyp:#9b7bff;--power:#f2b134;--run:#2fb8d6;--rest:#4c6b70;--ok:#34c38f;
-  --r:14px;--font:"Barlow Semi Condensed","Avenir Next Condensed","Roboto Condensed","Helvetica Neue",Arial,sans-serif;
-  --mono:"IBM Plex Mono","SF Mono",Menlo,Consolas,monospace;
-  --onpower:#111;--toastink:#111;
-}
-html[data-theme=light]{
   --bg:#f6f8f7;--panel:#ffffff;--panel2:#eef2f1;--line:#d8e0de;--ink:#13272a;--mute:#5b7370;--dim:#8aa09c;
   --heavy:#c93a2a;--hyp:#6a4fd8;--power:#c98a00;--run:#0f8fae;--rest:#8fa3a0;--ok:#1f9a6d;
+  --r:14px;--font:"Barlow Semi Condensed","Avenir Next Condensed","Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono","SF Mono",Menlo,Consolas,monospace;
   --onpower:#fff;--toastink:#fff;
 }
-html[data-theme=light] .topbar{background:rgba(255,255,255,.92)}
-html[data-theme=light] .modal{background:rgba(20,40,44,.45)}
-html[data-theme=light] .pill.power,html[data-theme=light] .ex .rx{color:#9a6a00}
+.topbar{background:rgba(255,255,255,.92)}
+.modal{background:rgba(20,40,44,.45)}
+.pill.power,.ex .rx{color:#9a6a00}
 *{box-sizing:border-box}html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.35;-webkit-font-smoothing:antialiased;padding-bottom:calc(72px + env(safe-area-inset-bottom))}
 h1,h2,h3{margin:0;font-weight:700;letter-spacing:.01em}
 h1{font-size:22px}h2{font-size:18px}h3{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
 .eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--mute)}
-.topbar{position:sticky;top:0;z-index:20;background:linear-gradient(var(--panel),rgba(16,42,46,.92));backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;display:flex;align-items:center;gap:12px}
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;display:flex;align-items:center;gap:12px}
 .topbar .mark{width:30px;height:30px;border-radius:8px;background:var(--power);color:var(--onpower);display:grid;place-items:center;font-weight:900;font-family:var(--mono)}
 .topbar .sp{flex:1}
 .install{background:var(--power);color:var(--onpower);border:0;border-radius:999px;padding:6px 12px;font-weight:700;font-family:var(--font)}
@@ -163,7 +158,7 @@ const DEFAULT={
   sauna:{hist:[]}, // {d,min,temp}
   box:{cur:50,goal:75,unit:'cm',hist:[]}, // box jump working height; progresses on clean 4×3
   structure:{strength:2,runs:1,power:1,surgeon:true,level:'athlete',timer:true}, // surgeon: optional back & neck block; level: 'standard' | 'athlete'
-  theme:'dark', bar:20, lastBackup:null, notify:false,
+  theme:'light', bar:20, lastBackup:null, notify:false,
   undo:null, deloadWeeks:[], missedAck:null, engine:{k5:[],p20:[]}, // undo snapshot · forced deload weeks · missed-week prompt ack · 5k & 20-min power log
   exnote:{}, fav:{}, exlog:{}, exvid:{}, // exvid: your own video link per exercise (overrides the search) exvid:{}, // exvid: your preferred video link per exercise // per-exercise: personal note, favourite, history of best live sets {d,kg,reps}
   base:null, // baseline snapshot at onboarding {sq,rd,box,d} — drives the "since start" strip
@@ -174,7 +169,7 @@ const DEFAULT={
 };
 const clone=o=>JSON.parse(JSON.stringify(o)); // structuredClone needs iOS 15.4+
 let S=load();
-function applyTheme(){try{document.documentElement.dataset.theme=S.theme==='light'?'light':'dark';const m=document.querySelector('meta[name=theme-color]');if(m)m.content=S.theme==='light'?'#ffffff':'#102a2e'}catch(e){}}
+function applyTheme(){try{document.documentElement.dataset.theme='light';S.theme='light'}catch(e){}}
 applyTheme();
 function load(){try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object'){const m=deepMerge(clone(DEFAULT),j);for(const k of ['lifts','burpee','box','structure','slots','log','sauna','exnote','fav','exlog','exvid'])if(!m[k]||typeof m[k]!=='object')m[k]=clone(DEFAULT[k]);Object.values(m.log).forEach(l=>{if(l&&l.live)Object.keys(l.live).forEach(i=>{l.live[i]=Array.from(l.live[i]||[],e=>e||{})})});return m}}catch(e){console.error('state reset',e)}return clone(DEFAULT)}
 let memOnly=false;
@@ -861,7 +856,6 @@ function settings(){const st=S.structure,sl=S.slots;const sq=S.lifts.squat,rd=S.
    <div class="field"><label>Power & plyo sessions</label>${seg('power',[1,2])}</div>
    <div class="field"><label>Compromised runs (attached to A, then B)</label>${seg('runs',[1,2])}</div>
    <div class="field"><label>Intensity</label><div class="seg" data-segl="level"><button class="${st.level==='athlete'?'on':''}" data-v="athlete">Athlete</button><button class="${st.level!=='athlete'?'on':''}" data-v="standard">Standard</button></div><p class="note">Athlete: AMRAP top set in peak weeks (big jumps when you smash it), rotating density finisher on A and B, no finisher in deload. Standard: the straight sets only.</p></div>
-   <div class="field"><label>Appearance</label><div class="seg" data-segt="theme"><button class="${S.theme!=='light'?'on':''}" data-v="dark">Dark</button><button class="${S.theme==='light'?'on':''}" data-v="light">Light · white</button></div></div>
    <div class="field"><label>Rest timer in live mode</label><div class="seg" data-segb="timer"><button class="${st.timer!==false?'on':''}" data-v="1">On</button><button class="${st.timer===false?'on':''}" data-v="0">Off</button></div><p class="note">Off = tap sets only, no countdown. Interval clocks (Tabata / EMOM) still run when you start them.</p></div>
    <div class="field"><label>Surgeon block · back & neck endurance (end of each strength session, ~7 min)</label><div class="seg" data-segb="surgeon"><button class="${st.surgeon?'on':''}" data-v="1">On</button><button class="${!st.surgeon?'on':''}" data-v="0">Off</button></div></div></div>
   <div class="card"><h3>Day slots</h3><p class="note">Keep A and B ≥48h apart; put power sessions on days before or well away from key cardio.</p><div class="grid2">${daySel('A','Strength A · squat')}${daySel('B','Strength B · hinge')}${st.strength===3?daySel('C','Strength C · hypertrophy'):''}${daySel('P1','Power I')}${st.power===2?daySel('P2','Power II'):''}</div></div>
@@ -885,7 +879,6 @@ function settings(){const st=S.structure,sl=S.slots;const sq=S.lifts.squat,rd=S.
   $('#dlSet').onclick=()=>{const wi=weekIndex();const d=S.deloadWeeks||[];S.deloadWeeks=d.includes(wi)?d.filter(x=>x!==wi):[...d,wi];save();settings()};
   $('#ntf').onclick=async()=>{if(!('Notification'in window)){toast('Not supported in this browser');return}const r=await Notification.requestPermission();S.notify=r==='granted';save();settings();toast(S.notify?'Alerts on':'Alerts blocked by the browser')};
   document.querySelectorAll('[data-seg] button').forEach(b=>b.onclick=()=>{S.structure[b.parentElement.dataset.seg]=+b.dataset.v;save();settings()});
-  document.querySelectorAll('[data-segt] button').forEach(b=>b.onclick=()=>{S.theme=b.dataset.v;save();applyTheme();settings()});
   document.querySelectorAll('[data-segl] button').forEach(b=>b.onclick=()=>{S.structure.level=b.dataset.v;save();settings()});
   document.querySelectorAll('[data-segb] button').forEach(b=>b.onclick=()=>{S.structure[b.parentElement.dataset.segb]=b.dataset.v==='1';save();settings()});
   document.querySelectorAll('[data-slot]').forEach(s=>s.onchange=()=>{S.slots[s.dataset.slot]=+s.value;save()});
